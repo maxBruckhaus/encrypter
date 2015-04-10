@@ -1,0 +1,441 @@
+/*  Maxwell Bruckhaus
+ *  Period 3
+ *  April 5th, 2015
+ *  Time /*  Maxwell Bruckhaus
+ *  Period 3
+ *  April 5th, 2015
+ *  Time /*  Maxwell Bruckhaus
+ *  Period 3
+ *  April 5th, 2015
+ *  Time /*  Maxwell Bruckhaus
+ *  Period 3
+ *  April 5th, 2015
+ *  Time taken: 3 hours
+ *  I didn't get a chance to work more than 3 houtaken: 3 hours
+ *  I didn't get a chance to work more than 3 houtaken: 3 hours
+ *  I didn't get a chance to work more than 3 houtaken: 3 hours
+ *  I didn't get a chance to work more than 3 hours on this lab
+ *  due to working and spending time with my famirs on this lab
+ *  due to working and spending time with my famirs on this lab
+ *  due to working and spending time with my famirs on this lab
+ *  due to working and spending time with my family for Easter. I got
+ *  done with most of the lab; I only need ly for Easter. I got
+ *  done with most of the lab; I only need ly for Easter. I got
+ *  done with most of the lab; I only need ly for Easter. I got
+ *  done with most of the lab; I only need to find a way to encrypt the
+ *  characters. I got the reading ato find a way to encrypt the
+ *  characters. I got the reading ato find a way to encrypt the
+ *  characters. I got the reading ato find a way to encrypt the
+ *  characters. I got the reading and output file working.
+ *
+*/
+
+
+import java.io.*;
+import java.utnd output file working.
+ *
+*/
+
+
+import java.io.*;
+import java.utnd output file working.
+ *
+*/
+
+
+import java.io.*;
+import java.utnd output file working.
+ *
+*/
+
+
+import java.io.*;
+import java.util.Scanner;
+
+public class EncryptXORMBruckhausPeriod3 {
+
+    priil.Scanner;
+
+public class EncryptXORMBruckhausPeriod3 {
+
+    priil.Scanner;
+
+public class EncryptXORMBruckhausPeriod3 {
+
+    priil.Scanner;
+
+public class EncryptXORMBruckhausPeriod3 {
+
+    private String inputFileName = "";
+    private File inputFile;
+    vate String inputFileName = "";
+    private File inputFile;
+    vate String inputFileName = "";
+    private File inputFile;
+    vate String inputFileName = "";
+    private File inputFile;
+    private FileReader reader;
+    private String outputFileName = "private FileReader reader;
+    private String outputFileName = "private FileReader reader;
+    private String outputFileName = "private FileReader reader;
+    private String outputFileName = "";
+    private File outputFile;
+    private FileWriter writer;
+ ";
+    private File outputFile;
+    private FileWriter writer;
+ ";
+    private File outputFile;
+    private FileWriter writer;
+ ";
+    private File outputFile;
+    private FileWriter writer;
+    private String encryptionKey = "";
+    private int keyPositio   private String encryptionKey = "";
+    private int keyPositio   private String encryptionKey = "";
+    private int keyPositio   private String encryptionKey = "";
+    private int keyPosition = 0;
+    private char[] inputBuffer = new char[64];
+
+    publin = 0;
+    private char[] inputBuffer = new char[64];
+
+    publin = 0;
+    private char[] inputBuffer = new char[64];
+
+    publin = 0;
+    private char[] inputBuffer = new char[64];
+
+    public static void main(String[] args) throws IOException {
+        Ec static void main(String[] args) throws IOException {
+        Ec static void main(String[] args) throws IOException {
+        Ec static void main(String[] args) throws IOException {
+        EncryptXORMBruckhausPeriod3 crypter = new EncryptXORMBruckhausPerncryptXORMBruckhausPeriod3 crypter = new EncryptXORMBruckhausPerncryptXORMBruckhausPeriod3 crypter = new EncryptXORMBruckhausPerncryptXORMBruckhausPeriod3 crypter = new EncryptXORMBruckhausPeriod3();
+        crypter.getInputs();
+        crypter.prepareFileiod3();
+        crypter.getInputs();
+        crypter.prepareFileiod3();
+        crypter.getInputs();
+        crypter.prepareFileiod3();
+        crypter.getInputs();
+        crypter.prepareFiles();
+        crypter.encrypt();
+        crypter.cleanUp();
+    }s();
+        crypter.encrypt();
+        crypter.cleanUp();
+    }s();
+        crypter.encrypt();
+        crypter.cleanUp();
+    }s();
+        crypter.encrypt();
+        crypter.cleanUp();
+    }
+
+    private void encrypt() throws IOException {
+        while(
+
+    private void encrypt() throws IOException {
+        while(
+
+    private void encrypt() throws IOException {
+        while(
+
+    private void encrypt() throws IOException {
+        while(reader.ready()) { // there are bytes to be read
+            thisreader.ready()) { // there are bytes to be read
+            thisreader.ready()) { // there are bytes to be read
+            thisreader.ready()) { // there are bytes to be read
+            this.readCharacters();
+            this.encryptCharacters();
+       .readCharacters();
+            this.encryptCharacters();
+       .readCharacters();
+            this.encryptCharacters();
+       .readCharacters();
+            this.encryptCharacters();
+        }
+    }
+
+    private void prepareFiles() throws IOException {
+  }
+    }
+
+    private void prepareFiles() throws IOException {
+  }
+    }
+
+    private void prepareFiles() throws IOException {
+  }
+    }
+
+    private void prepareFiles() throws IOException {
+        inputFile = new File(this.inputFileName);
+        reader        inputFile = new File(this.inputFileName);
+        reader        inputFile = new File(this.inputFileName);
+        reader        inputFile = new File(this.inputFileName);
+        reader = new FileReader(inputFile);
+        outputFile = new File(outpu= new FileReader(inputFile);
+        outputFile = new File(outpu= new FileReader(inputFile);
+        outputFile = new File(outpu= new FileReader(inputFile);
+        outputFile = new File(outputFileName);
+        outputFile.createNewFile();
+        writer =tFileName);
+        outputFile.createNewFile();
+        writer =tFileName);
+        outputFile.createNewFile();
+        writer =tFileName);
+        outputFile.createNewFile();
+        writer = new FileWriter(outputFile);
+    }
+
+    private void readCharact new FileWriter(outputFile);
+    }
+
+    private void readCharact new FileWriter(outputFile);
+    }
+
+    private void readCharact new FileWriter(outputFile);
+    }
+
+    private void readCharacters() throws IOException {
+        // 2.  Read characters into ters() throws IOException {
+        // 2.  Read characters into ters() throws IOException {
+        // 2.  Read characters into ters() throws IOException {
+        // 2.  Read characters into the buffer using the
+        //     read(char[] cbuf) method and he buffer using the
+        //     read(char[] cbuf) method and he buffer using the
+        //     read(char[] cbuf) method and he buffer using the
+        //     read(char[] cbuf) method and save the return value.
+        //     The return value tells yousave the return value.
+        //     The return value tells yousave the return value.
+        //     The return value tells yousave the return value.
+        //     The return value tells you how many characters were read,
+        //     which may be less how many characters were read,
+        //     which may be less how many characters were read,
+        //     which may be less how many characters were read,
+        //     which may be less than the array/buffer size.
+        reader.read(inputBuffer); / than the array/buffer size.
+        reader.read(inputBuffer); / than the array/buffer size.
+        reader.read(inputBuffer); / than the array/buffer size.
+        reader.read(inputBuffer); // reads the content to the array
+        encryptCharacters();
+  / reads the content to the array
+        encryptCharacters();
+  / reads the content to the array
+        encryptCharacters();
+  / reads the content to the array
+        encryptCharacters();
+    }
+
+    private void encryptCharacters() throws IOException {
+   }
+
+    private void encryptCharacters() throws IOException {
+   }
+
+    private void encryptCharacters() throws IOException {
+   }
+
+    private void encryptCharacters() throws IOException {
+        char encryptedCharacter;
+        // 3.  Loop through each       char encryptedCharacter;
+        // 3.  Loop through each       char encryptedCharacter;
+        // 3.  Loop through each       char encryptedCharacter;
+        // 3.  Loop through each character in the buffer
+        for(char c : inputBuffer) {
+    character in the buffer
+        for(char c : inputBuffer) {
+    character in the buffer
+        for(char c : inputBuffer) {
+    character in the buffer
+        for(char c : inputBuffer) {
+            System.out.print(c); //prints the characters one by one         System.out.print(c); //prints the characters one by one         System.out.print(c); //prints the characters one by one         System.out.print(c); //prints the characters one by one
+            encryptedCharacter = encryptCharacter(c);
+         
+            encryptedCharacter = encryptCharacter(c);
+         
+            encryptedCharacter = encryptCharacter(c);
+         
+            encryptedCharacter = encryptCharacter(c);
+            // Write the encrypted message to the output file:
+             // Write the encrypted message to the output file:
+             // Write the encrypted message to the output file:
+             // Write the encrypted message to the output file:
+            writer.write(encryptedCharacter);
+        }
+    }
+
+    private  writer.write(encryptedCharacter);
+        }
+    }
+
+    private  writer.write(encryptedCharacter);
+        }
+    }
+
+    private  writer.write(encryptedCharacter);
+        }
+    }
+
+    private char encryptCharacter(char c) {
+        //    As you read the i char encryptCharacter(char c) {
+        //    As you read the i char encryptCharacter(char c) {
+        //    As you read the i char encryptCharacter(char c) {
+        //    As you read the input file, XOR each character with the next available
+        //nput file, XOR each character with the next available
+        //nput file, XOR each character with the next available
+        //nput file, XOR each character with the next available
+        //    character in the key and append the result to the encrypted     character in the key and append the result to the encrypted     character in the key and append the result to the encrypted     character in the key and append the result to the encrypted message String.
+        //    Cycle through the key characters amessage String.
+        //    Cycle through the key characters amessage String.
+        //    Cycle through the key characters amessage String.
+        //    Cycle through the key characters as needed.
+        //    use Java's built-in ^ operator:
+        s needed.
+        //    use Java's built-in ^ operator:
+        s needed.
+        //    use Java's built-in ^ operator:
+        s needed.
+        //    use Java's built-in ^ operator:
+        char result;
+        int intResult;
+        int keyValue = (int)char result;
+        int intResult;
+        int keyValue = (int)char result;
+        int intResult;
+        int keyValue = (int)char result;
+        int intResult;
+        int keyValue = (int)encryptionKey.charAt(keyPosition);
+        int intCharValue = (iencryptionKey.charAt(keyPosition);
+        int intCharValue = (iencryptionKey.charAt(keyPosition);
+        int intCharValue = (iencryptionKey.charAt(keyPosition);
+        int intCharValue = (int)c;
+        // XOR it now:
+        intResult = keyValue ^ intCnt)c;
+        // XOR it now:
+        intResult = keyValue ^ intCnt)c;
+        // XOR it now:
+        intResult = keyValue ^ intCnt)c;
+        // XOR it now:
+        intResult = keyValue ^ intCharValue;
+        result = (char)intResult;
+        keyPosition harValue;
+        result = (char)intResult;
+        keyPosition harValue;
+        result = (char)intResult;
+        keyPosition harValue;
+        result = (char)intResult;
+        keyPosition = (keyPosition + 1) % encryptionKey.length();
+        return res= (keyPosition + 1) % encryptionKey.length();
+        return res= (keyPosition + 1) % encryptionKey.length();
+        return res= (keyPosition + 1) % encryptionKey.length();
+        return result;
+    }
+
+    private void getInputs() {
+        // Prompt theult;
+    }
+
+    private void getInputs() {
+        // Prompt theult;
+    }
+
+    private void getInputs() {
+        // Prompt theult;
+    }
+
+    private void getInputs() {
+        // Prompt the user for the following information:
+        // An input file to user for the following information:
+        // An input file to user for the following information:
+        // An input file to user for the following information:
+        // An input file to encrypt
+        // An output file to store the result
+        / encrypt
+        // An output file to store the result
+        / encrypt
+        // An output file to store the result
+        / encrypt
+        // An output file to store the result
+        // A private key (String)
+        System.out.println("Welcome to / A private key (String)
+        System.out.println("Welcome to / A private key (String)
+        System.out.println("Welcome to / A private key (String)
+        System.out.println("Welcome to the XOR Text File Encryptor!");
+        Scanner scanner = new Scthe XOR Text File Encryptor!");
+        Scanner scanner = new Scthe XOR Text File Encryptor!");
+        Scanner scanner = new Scthe XOR Text File Encryptor!");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a file to encranner(System.in);
+        System.out.print("Enter a file to encranner(System.in);
+        System.out.print("Enter a file to encranner(System.in);
+        System.out.print("Enter a file to encrypt: ");
+        inputFileName = scanner.next();
+        System.ypt: ");
+        inputFileName = scanner.next();
+        System.ypt: ");
+        inputFileName = scanner.next();
+        System.ypt: ");
+        inputFileName = scanner.next();
+        System.out.print("Enter a file to output: ");
+        outputFileName = out.print("Enter a file to output: ");
+        outputFileName = out.print("Enter a file to output: ");
+        outputFileName = out.print("Enter a file to output: ");
+        outputFileName = scanner.next();
+        System.out.print("Enter a private key: "scanner.next();
+        System.out.print("Enter a private key: "scanner.next();
+        System.out.print("Enter a private key: "scanner.next();
+        System.out.print("Enter a private key: ");
+        encryptionKey = scanner.next();
+    }
+
+    private vo);
+        encryptionKey = scanner.next();
+    }
+
+    private vo);
+        encryptionKey = scanner.next();
+    }
+
+    private vo);
+        encryptionKey = scanner.next();
+    }
+
+    private void cleanUp() throws IOException {
+        writer.flush();
+      id cleanUp() throws IOException {
+        writer.flush();
+      id cleanUp() throws IOException {
+        writer.flush();
+      id cleanUp() throws IOException {
+        writer.flush();
+        writer.close();
+        reader.close();
+        System.out.pri  writer.close();
+        reader.close();
+        System.out.pri  writer.close();
+        reader.close();
+        System.out.pri  writer.close();
+        reader.close();
+        System.out.println();
+        System.out.println("Success!  File " + outputFilntln();
+        System.out.println("Success!  File " + outputFilntln();
+        System.out.println("Success!  File " + outputFilntln();
+        System.out.println("Success!  File " + outputFileName + " created!");
+        System.out.print("Press any key toeName + " created!");
+        System.out.print("Press any key toeName + " created!");
+        System.out.print("Press any key toeName + " created!");
+        System.out.print("Press any key to continue... ");
+        // close the FileReader when you're don continue... ");
+        // close the FileReader when you're don continue... ");
+        // close the FileReader when you're don continue... ");
+        // close the FileReader when you're done with it
+    }
+}        // close the FileReader when you're done with it
+    }
+}        // close the FileReader when you're done with it
+    }
+}        // close the FileReader when you're done with it
+    }
+}        // close the FileReader when you're don
